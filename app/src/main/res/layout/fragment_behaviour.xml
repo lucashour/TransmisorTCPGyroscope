@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/academic_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/behaviour_title"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:singleLine="false"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"/>
+
+    <!--<Button
+        android:id="@+id/up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textStyle="bold"
+        android:text="@string/up_button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/apptheme_btn_default_holo_dark"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/down_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textStyle="bold"
+        android:text="@string/down_button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/apptheme_btn_default_holo_dark"/>-->
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_bar"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/ip_address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:hint="@string/option1"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/ip_address_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/port_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:hint="@string/option2"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/port_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"
+        android:layout_gravity="fill_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/connect_button"
+                android:layout_column="0"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:textStyle="bold"
+                android:text="@string/connect_button"
+                android:textColor="@android:color/white"
+                android:background="@drawable/apptheme_btn_default_holo_dark"/>
+
+            <Button
+                android:id="@+id/disconnect_button"
+                android:layout_column="1"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:textStyle="bold"
+                android:text="@string/disconnect_button"
+                android:textColor="@android:color/white"
+                android:background="@drawable/apptheme_btn_default_holo_dark"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
